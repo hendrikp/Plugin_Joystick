@@ -20,10 +20,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\authors.txt" />
+    <None Include="..\changelog.md" />
+    <None Include="..\latestredist.info" />
     <None Include="..\license.txt" />
     <None Include="..\readme.md" />
     <None Include="..\tools\build.bat" />
+    <None Include="..\tools\build_installer.bat" />
     <None Include="..\tools\codestyle.astylerc" />
+    <None Include="..\tools\Joystick_Installer.nsi" />
     <None Include="..\tools\stylecode.bat" />
     <None Include="..\tools\_astyle.exe" />
     <None Include="..\tools\_stylehelper.bat" />

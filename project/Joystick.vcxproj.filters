@@ -20,6 +20,9 @@
       <UniqueIdentifier>{d700e200-de8c-42e4-842c-772f661ad8a5}</UniqueIdentifier>
       <Extensions>exe;bat;astylerc</Extensions>
     </Filter>
+    <Filter Include="Installer">
+      <UniqueIdentifier>{b1f42804-3dee-4ed7-a945-a88bd7c7feba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\readme.md" />
@@ -39,6 +42,14 @@
     </None>
     <None Include="..\tools\stylecode.bat">
       <Filter>Tools</Filter>
+    </None>
+    <None Include="..\changelog.md" />
+    <None Include="..\latestredist.info" />
+    <None Include="..\tools\Joystick_Installer.nsi">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="..\tools\build_installer.bat">
+      <Filter>Installer</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

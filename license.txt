@@ -1,5 +1,5 @@
 Joystick Plugin
-==================================================================================
+===============
 Copyright (c) 2012, The authors of the Joystick Plugin project
 All rights reserved.
 

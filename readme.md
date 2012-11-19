@@ -1,12 +1,11 @@
 Joystick Plugin for CryEngine
 =============================
-Not tested.
-
+Adds Flownode for Joystick and Controller Input.
 Port of the FGPS Joystick Node to the Plugin SDK.
 
 Installation / Integration
 ==========================
-Extract the files to your Cryengine SDK Folder so that the Code and BinXX/Plugins directory match up.
+Use the installer or extract the files to your Cryengine SDK Folder so that the Code and BinXX/Plugins directory match up.
 
 The plugin manager will automatically load up the plugin when the game/editor is restarted or if you directly load it.
 
