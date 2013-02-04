@@ -35,7 +35,7 @@ namespace JoystickPlugin
 
             CFlowJoystickNode( SActivationInfo* pActInfo )
             {
-#ifndef SDK_VERSION_343
+#if CDK_VERSION < 343
                 Init( gEnv->pSystem->GetIScriptSystem(), gEnv->pSystem );
 #else
                 Init( gEnv->pSystem->GetIScriptSystem() );
