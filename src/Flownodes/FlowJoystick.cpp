@@ -210,7 +210,7 @@ namespace JoystickPlugin
                 {
                     InputPortConfig<bool>( "Enabled", true, _HELP( "Enables/Disables the joystick" ) ),
                     InputPortConfig<string>( "Joystick", "1", _HELP( "Select a joystick" ), "Joystick", _UICONFIG( joysticks ) ),
-                    {0}
+                    InputPortConfig_Null(),
                 };
 
                 static const SOutputPortConfig outputs[] =
@@ -225,7 +225,7 @@ namespace JoystickPlugin
                     OutputPortConfig<int>( "POV", _HELP( "Direction controllers, such as point-of-view hats. The position is indicated in hundredths of a degree clockwise from north (away from the user). The center position is normally reported as - 1. For indicators that have only five positions, the value for a controller is - 1, 0, 9,000, 18,000, or 27,000." ) ),
                     OutputPortConfig<int>( "ButtonPressed", _HELP( "Joystick button pressed" ) ),
                     OutputPortConfig<int>( "ButtonReleased", _HELP( "Joystick button released" ) ),
-                    {0}
+                    OutputPortConfig_Null(),
                 };
 
                 config.pInputPorts = inputs;
