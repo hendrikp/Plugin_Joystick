@@ -1,6 +1,6 @@
 Joystick Plugin
 ===============
-Copyright (c) 2012, The authors of the Joystick Plugin project
+Copyright (c) 2013, The authors of the Joystick Plugin project
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

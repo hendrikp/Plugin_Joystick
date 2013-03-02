@@ -1,3 +1,7 @@
+Joystick Plugin 1.2.1.0 (02.03.2013)
+---------------------------
+Stable Release for CryEngine 3.4.5 (32/64 bit)
+
 Joystick Plugin 1.2.0.0 (08.02.2012)
 ---------------------------
 Stable Release for CryEngine 3.4.4 (32/64 bit)
