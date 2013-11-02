@@ -1,10 +1,9 @@
 /* Joystick_Plugin - for licensing and copyright see license.txt */
 
 #include "StdAfx.h"
-#include "Nodes/G2FlowBaseNode.h"
-//#include <IScriptSystem.h>
-//#include <ScriptHelpers.h>
+
 #include <CPluginJoystick.h>
+#include "Nodes/G2FlowBaseNode.h"
 
 namespace JoystickPlugin
 {
@@ -35,7 +34,7 @@ namespace JoystickPlugin
 
             CFlowJoystickNode( SActivationInfo* pActInfo )
             {
-#if CDK_VERSION < 343
+#if CDK_VERSION < 343 || CDK_VERSION >= 350
                 Init( gEnv->pSystem->GetIScriptSystem(), gEnv->pSystem );
 #else
                 Init( gEnv->pSystem->GetIScriptSystem() );

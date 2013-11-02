@@ -150,7 +150,7 @@ namespace JoystickPlugin
                     }
 
                     // Unregister game objects
-                    if ( gEnv && gEnv->pGameFramework && gEnv->pGame )
+                    if ( gEnv && gEnv->pGame && gEnv->pGame->GetIGameFramework() )
                     {
                         // ...
                     }
