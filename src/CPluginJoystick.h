@@ -75,7 +75,7 @@ namespace JoystickPlugin
 
             void* GetConcreteInterface( const char* sInterfaceVersion )
             {
-                return static_cast < IPluginJoystick* > ( this );
+                return static_cast <IPluginJoystick*>( this );
             };
 
             // IPluginJoystick
